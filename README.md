@@ -16,7 +16,7 @@ ALT+F4 doesn't always work. So here's a solution.
 3. Install modules
    ```sh
    pip install pywin32 keyboard
-5. Run the script in terminal
+5. Run the script in terminal (Terminate with ctrl+c)
    ```sh
    python script.py
    ```
