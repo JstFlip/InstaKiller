@@ -20,6 +20,8 @@ ALT+F4 doesn't always work. So here's a solution.
    ```sh
    python script.py
    ```
-   
+### Make .exe file
+Additionally you can build it into an executable file using `pyinstaller`
+
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
