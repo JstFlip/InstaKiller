@@ -5,10 +5,10 @@ import os
 import signal
 import time
 
-shortcut = 'ctrl + alt + end'
+shortcut = "ctrl + alt + end"
 
 def getActiveWindowPID():
-    if win32gui.GetWindowText(win32gui.GetForegroundWindow()) == 'File Explorer':
+    if win32gui.GetWindowText(win32gui.GetForegroundWindow()) == "File Explorer":
         return
     else:
         window = win32gui.GetForegroundWindow()
